@@ -7,7 +7,12 @@
     <Authors>Andrei Dvoynos</Authors>
     <Description>Template to quickly setup a basic reverse proxy using YARP.</Description>
     <PackageTags>yarp-basic;yarp;proxy;reverse-proxy</PackageTags>
-    
+    <PackageProjectUrl>https://github.com/ajdvoynos/Yarp.Basic.Template</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/ajdvoynos/Yarp.Basic.Template</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
     <TargetFramework>net6.0</TargetFramework>
     
     <IncludeContentInPack>true</IncludeContentInPack>
@@ -19,6 +24,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>  
