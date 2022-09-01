@@ -14,3 +14,7 @@ To install the template locally, you can run `dotnet new -i templates/yarp-basic
 After any changes to the template you need to reinstall the package and clear the cache by running:
 
 `dotnet new -u templates\yarp-basic && dotnet new -i templates\yarp-basic && dotnet new --debug:rebuildcache`
+
+## Publishing
+
+To publish the package, you need to run `dotnet pack`, this will generate a .nupkg file that you can publish to nuget.
