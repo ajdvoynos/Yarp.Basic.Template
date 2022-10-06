@@ -12,7 +12,7 @@ dotnet new yarp-basic -f https://yourUrlHere && dotnet run
 ```
 The only required argument is `-f` which is the URL where the requests will be proxied to.
 
-## Installation without npm:
+## Installation from source (git clone this repo):
 
 Download the repository and run `dotnet new -i templates/yarp-basic/`.
 
