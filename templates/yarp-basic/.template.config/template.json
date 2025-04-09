@@ -18,7 +18,7 @@
         "forwardUrl": {
             "type": "parameter",
             "isRequired": true,
-            "datatype": "Url",
+            "datatype": "text",
             "defaultValue": "https://httpbin.org",
             "description": "URL that you wish to redirect to",
             "replaces": "https://httpbin.org",
@@ -27,10 +27,10 @@
         "proxyUrl": {
             "type": "parameter",
             "isRequired": false,
-            "datatype": "Url",
-            "defaultValue": "",
+            "datatype": "text",
+            "defaultValue": "http://127.0.0.1:8888",
             "description": "Optional proxy for HTTP client to capture the requests. If you want to use Fiddler for example: http://localhost:8888.",
-            "replaces": "http://localhost:8888"
+            "replaces": "http://127.0.0.1:8888"
         },
         "proxyEnabled": {
             "type": "computed",
